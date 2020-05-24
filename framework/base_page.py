@@ -149,4 +149,3 @@ class BasePage(object):
         time.sleep(seconds)
         logger.info("Sleep for %d seconds" % seconds)
 
-
