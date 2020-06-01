@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # web端UI自动化
 
 （1）config：存放浏览器类型，url等
@@ -19,3 +20,7 @@
 （7）test_report：存放测试运行之后生成的测试报告，可以查看报告定位问题；
 
 （8）screenshots：存放测试运行之后生成的测试截图，可以查看截图定位问题；
+=======
+# Web_UI_Automation
+web端UI自动化
+>>>>>>> cb3a9e3ae912fd389f855c793e0526a18f39c4aa
