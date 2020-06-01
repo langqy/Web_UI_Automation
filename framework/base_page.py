@@ -2,8 +2,7 @@
 import time
 from selenium.common.exceptions import NoSuchElementException
 import os.path
-from selenium import webdriver
-from framework.logger import Logger
+from logs.test_log2 import Logger
 
 #create a logger instance
 logger = Logger(logger="BasePage").getlog()

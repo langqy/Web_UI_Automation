@@ -21,14 +21,17 @@ class ViewNBANews(unittest.TestCase):
         baiduhome = HomePage(self.driver)
         # baiduhome.click_news()
         self.driver.find_element_by_xpath("//*[@id='u1']/a[@name='tj_trnews']").click()
+
         # 初始化一个百度新闻主页，点击体育
         newshome = NewsHomePage(self.driver)
         # newshome.click_sports()
         self.driver.find_element_by_xpath("//*[@id='channel-all']/div/ul/li[7]/a").click()
+
         # 初始化一个体育新闻主页，点击NBA
         sportsnewhome = SportNewsHomePage(self.driver)
         # sportsnewhome.click_nba_link()
         self.driver.find_element_by_xpath("//*[@class='hd']//h3//a").click()
+
         time.sleep(3)
         windows = self.driver.window_handles
         new_windows = VideoPage(self.driver)

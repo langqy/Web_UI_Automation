@@ -2,7 +2,7 @@
 import configparser
 import os.path
 from selenium import webdriver
-from framework.logger import Logger
+from logs.test_log2 import Logger
 
 logger = Logger(logger="BrowserEngine").getlog()
 
