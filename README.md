@@ -1,4 +1,11 @@
-# web端UI自动化
+# Web_UI_Automation
+基于Unittest+Selenium+HTMLTestRunner的UI自动化开源框架（PO模式）
+
+----  
+#### 框架流程
+读取BasePage类操作方法-操作页面元素-执行测试脚本-生成html报告
+
+----
 
 （1）config：存放浏览器类型，url等
 
